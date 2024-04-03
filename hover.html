@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hover card</title>
+</head>
+<body>
+  
+  <!-- Card --> 
+  <style>
+
+    body{
+      background-color: cadetblue;
+    }
+
+    h1{
+      max-width: 1000px;
+      padding: 20px;
+      margin: 50px auto;
+      font-size: clamp(1rem, 7vw, 3rem);
+      text-align: center;
+      line-height: 1;
+      font-family: Poppins;
+    }
+
+    .benefits{
+      height: 1em;
+      overflow: hidden;
+      display: flex;
+      font-size: calc(1em + 10px);
+      flex-direction: column;
+    }
+
+    @keyframes auto-scroll {
+
+      0% {
+        transform: translateY(0);
+      }
+      5% {
+        transform: translateY(0 );
+      }
+      10% {
+        transform: translateY(-1em);
+      }
+      30% {
+        transform: translateY(-1em);
+      }
+      35% {
+        transform: translateY(-2em);
+      }
+      55% {
+        transform: translateY(-2em);
+      }
+      60% {
+        transform: translateY(-3em);
+      }
+      80% {
+        transform: translateY(-3em);
+      }
+      85% {
+        transform: translateY(-4em);
+      }
+      100% {
+        transform: translateY(-4em);
+      }
+    }
+.benefits span{
+
+  background: -webkit-linear-gradient(#fc74f3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: red !important;
+  animation: auto-scroll 15s infinite;
+}
+
+  </style>
+
+
+  <h1>
+
+    The only database system available
+    <div class="benefits">
+      <span>Scalability</span>
+      <span>Perfomance</span>
+      <span>Flexibility</span>
+      <span>Optimization</span>
+      <span>Scalability</span>
+    </div>
+    And a good developer experience
+  </h1>
+</body>
+</html>
+
+
+<!-- 
+<div class="textbox">
+  <h1>Happy belated birthday to You</h1>
+    <h2>Happy Birthday Sheryl</h2>
+    <h1>Is today your birthday ?</h1>
+    buttons -->

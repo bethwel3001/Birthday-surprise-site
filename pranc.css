@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  border-radius: border-box;
+
+}
+body {
+ background-color: blueviolet;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  background-position: center ;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+body a{
+  color: #50a60e;
+}
+.textbox{
+  width: 70%;
+  color: #50a60e;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.hero-btn{
+  background: #f4008a;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+
+}
+.textbox i{
+  font-size: 20px;
+  color: aqua;
+}
+.textbox a{
+  font-size: 24px;
+  color: yellow;
+  /* display: block; */
+  font-style: italic;
+}
+.text{
+  display: block;
+}
